@@ -1,22 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
-
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Inter", sans-serif;
+  width: 80%;
+  margin: auto;
 }
-.container {
+.container1 {
   display: flex;
   flex-direction: column;
   padding: 17px;
   height: 292px;
   width: 271px;
-  background-color: #7F56D9;
+  background-color: #7f56d9;
   border-radius: 8px;
+  margin-bottom: 50px;
 }
 
 .title,
@@ -71,25 +72,93 @@ body {
   margin: 13px 0;
 }
 
-#baseline {
+#baseline,
+#baseline2 {
   display: flex;
   flex-direction: row;
 }
-.smile{position: relative;}
-#playicon i {font-size: 48px;
-color: white;
-filter: opacity(.5);
-position: absolute;
-top: 185px;
-left: 35px;
+.smile {
+  position: relative;
+}
+#playicon i {
+  font-size: 48px;
+  color: white;
+  filter: opacity(0.5);
+  position: absolute;
+  top: 180px;
+  left: 75px;
 }
 
+/*    SECTION 2    */
 
+/* .container2 {
+  height: 220px;
+  width: 271px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+#pcircle {
+  height: 100px;
+}
 
-/* border-top: 16.5px solid transparent;
-border-left: 18px solid #02cd00;
-border-right: 18px solid transparent;
-border-bottom: 16.5px solid transparent;
-border-radius: 10px; */
+.line1 i {
+  color: black;
+  padding-right: 15px;
+  font-size: 100px;
+} */
 
+/*    SECTION 3    */
 
+.container3 {
+  width: 271px;
+  height: 164px;
+  background: #1d2939;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.used {
+  color: white;
+  font-style: normal;
+font-weight: 00;
+font-size: 14px;
+line-height: 20px;
+}
+
+.line1-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.x3 {
+  height: 13px;
+  width: 13px;
+  color: white;
+}
+
+.line2-2 {
+  color: #EAECF0;
+  font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+}
+
+.dismiss2 {
+  color: #d0d5dd;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 10px;
+}
+.upgrade {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
