@@ -9,10 +9,10 @@ body {
   width: 80%;
   margin: auto;
 }
-.container1 {
+.container1 {position: relative;
   display: flex;
   flex-direction: column;
-  padding: 17px;
+  padding: 15px;
   height: 292px;
   width: 271px;
   background-color: #7f56d9;
@@ -56,10 +56,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.x img {
-  height: 13px;
-  width: 13px;
+.x i {
+  font-size: 30px;
   color: white;
+  position: absolute;
+  top: 0;
+  right: 5px;
 }
 .title {
   margin-top: 3px;
@@ -89,29 +91,82 @@ body {
   left: 75px;
 }
 
+
+
+
+
+
+
 /*    SECTION 2    */
 
-/* .container2 {
+.container2 {
+  position: relative;
   height: 220px;
   width: 271px;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid #667085;
   border-radius: 8px;
   margin-bottom: 50px;
-}
-#pcircle {
-  height: 100px;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 15px;
 }
 
-.line1 i {
-  color: black;
-  padding-right: 15px;
-  font-size: 100px;
-} */
+.line1{padding-bottom: 15px;}
+#pcircle {
+  height: 70px;
+}
+
+.line1 i {position: absolute;
+  top: 0;
+  right: 5px;
+  color: #667085;
+  font-size: 30px;
+}
+
+.used01 {
+  color: #101828;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.line2 {
+  color: #475467;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+
+
+.dismiss2 {
+  color: #475467;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 10px;
+}
+.upgrade {
+  color: #6941c6;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
 
 /*    SECTION 3    */
 
-.container3 {
+.container3 {position: relative;
   width: 271px;
   height: 164px;
   background: #1d2939;
@@ -125,9 +180,9 @@ body {
 .used {
   color: white;
   font-style: normal;
-font-weight: 00;
-font-size: 14px;
-line-height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .line1-2 {
@@ -135,28 +190,29 @@ line-height: 20px;
   justify-content: space-between;
 }
 
-.x3 {
-  height: 13px;
-  width: 13px;
+.line1-2 i {position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 30px;
   color: white;
 }
 
 .line2-2 {
-  color: #EAECF0;
+  color: #eaecf0;
   font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-.dismiss2 {
+.dismiss3 {
   color: #d0d5dd;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   padding-right: 10px;
 }
-.upgrade {
+.upgrade2 {
   color: white;
   font-weight: 500;
   font-size: 14px;
